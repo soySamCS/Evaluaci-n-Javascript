@@ -79,8 +79,8 @@ console.log(Estudiaste);
 let saludo = `Hola, soy ${nombre} y tengo ${edad} años `
 console.log(saludo);
 
-if (Estudiaste === "Si" || Estudiaste === "Yes") {
-    console.log(`${nombre} si estudiaste! Pasarás la materia 😎`);
+if (Estudiaste === "Si" || Estudiaste === "Yes" || Estudiaste === "yes" || Estudiaste === "si" || Estudiaste === "simon") {
+    alert(`${nombre} si estudiaste! Pasarás la materia 😎`);
 } else {
-    console.log(`${nombre} no estudiaste, repobarás la materia 😭`)
+    alert(`${nombre} no estudiaste, repobarás la materia 😭`)
 }
